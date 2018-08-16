@@ -1,3 +1,28 @@
 {
-  "conspiracy": ["did this", "killed that"]
+  "singularNounPlusString": [
+    "{{ noun }} is actually dead and was replaced by a body double",
+    "{{ noun }} is a time-travelling vampire",
+    "{{ noun }} was secretly a KGB spy",
+    "{{ noun }} does not exist",
+    "{{ noun }} helped build the pyramids",
+    "{{ noun }} helped build Stonehenge",
+    "{{ noun }} can control the weather",
+    "{{ noun }} is running the world",
+    "{{ noun }} is Invading!",
+    "Millenials are killing {{ noun }}"
+  ],
+
+  "stringAlone": [
+    "Siri Apocalypse",
+    "The Large Hadron Collider is a device for awakening an Egyptian god",
+    "Nicki Minaj Rapping Is Actually Jay-Z Sped Up",
+    "The Earth is flat",
+    "Adam and Eve? Superintelligent beings from outer space",
+    "Unix is a virus",
+    "Shape-shifting reptile aliens control Earth by taking on a human form and gaining political power to manipulate humanity",
+    "Hitler is still alive"
+    ],
+
 }
+
+
