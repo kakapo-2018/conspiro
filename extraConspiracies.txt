@@ -1,0 +1,30 @@
+    // "nounIsNoun": [],
+
+  // "stringForObject": [
+  //   "Millenials are killing ",
+  //   " is a Government Spy Program"
+  // ]
+
+
+
+
+    "We all live in the Matrix and" + {{noun}} + "wants to break us out of it", // infixes problem
+
+
+
+
+
+  "nouns": [
+    "Hitler",
+    "Lizard People",
+    "Dinosaurs",
+    "Barack Obama",
+    "Hillary Clinton",
+    "the Illuminati",
+    "Michael Jackson",
+    "Pokemon Go"
+  ],
+  "objects": [
+    "the Illuminati",
+    "Pokemon Go"
+  ]
