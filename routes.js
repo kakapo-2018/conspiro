@@ -1,49 +1,38 @@
 let express = require('express');
 let	server = express();
 let conspiracyData = require('./conspiracy.json');
-//let nounData = require('./nouns.json');
-//let verbData = require('./verbs.json');
-let currentConspiracy = ""
-let currentVerb = ""
-let currentNoun = ""
+
+// let currentConspiracy = ""
+// let currentVerb = ""
+// let currentNoun = ""
 
 server.get('/', function(req, res) {
 	//reder conspiracy partial
 	res.render('index')
 })
 
+
 server.post('/', function(req, res) {
-	//read data
-	console.log(req.body.name)
+	//Read data
+	console.log(req.body.noun)
 
+	//Move request body into noun
+	let noun = req.body;
+	noun.conspiracy = conspiracyData.conspiracy[1]
 
-	noun = req.body;
-
-
-
-	if (noun == ""){
-	req.body.name = conspiracyData.nouns[0]
-
+	//If user doesn't input a noun use one from our JSON
+	if (noun.noun === ""){
+	req.body.noun = conspiracyData.nouns[0]
 	noun = req.body
 	}
 
-//	noun = req.body;
-
-	console.log(noun.name);
-
-
-	//Here we can code what needs to go to the conspiracy page
-	// -Code-
+	//Log out data
+	console.log(noun.noun);
 	console.log('Conspiracies: ', conspiracyData.conspiracy)
 	console.log('nouns: ', conspiracyData.nouns[0])
 
-
-
-
-
-
 	//reder conspiracy partial
-	res.render('conspiracy', {noun})
+	res.render('conspiracy', noun)
 })
 
 

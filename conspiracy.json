@@ -1,4 +1,5 @@
 {
-  "conspiracy": ["caused global warming", "killed 2pac"],
-  "nouns": ["mike", "john"]
+  "conspiracy": ["caused global warming", "{{ noun }} killed 2pac"],
+  "nouns": ["Ross", "Harrison"]
+
 }

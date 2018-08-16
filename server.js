@@ -1,6 +1,5 @@
 var path = require('path')
 var routes = require('./routes')
-// var data = require('./public/data.json')
 var express = require('express')
 var hbs = require('express-handlebars') 
 var server = express()
@@ -11,6 +10,7 @@ var hbsConfig = {
   defaultLayout: 'main',
   extname: 'hbs'
 }
+
 server.engine('hbs', hbs(hbsConfig))
 server.set('view engine', 'hbs')
 
