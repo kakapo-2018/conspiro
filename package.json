@@ -2,7 +2,7 @@
   "name": "conspiro",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/lukechadwick/conspiro",
+  "repository": "https://github.com/kakapo-2018/conspiro",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",

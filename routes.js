@@ -4,7 +4,7 @@ let	server = express();
     
 
 server.get('/', function(req, res) {
-	res.send("Server Up")
+	res.render('layouts/main')
 })
 
 
