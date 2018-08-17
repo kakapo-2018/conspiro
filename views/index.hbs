@@ -1,14 +1,33 @@
-<div id="container">
-
-Start your own conspiracy:
-
-<form action="/{{ noun }}" accept-charset="UTF-8" method="post">
-
-  <input placeholder="{{ noun }}" type="text" name="noun" value="{{ noun }}"/>
-  <input id="submit" type="submit" name="commit" value="Submit"/>
-
-</form>
 
 
+
+
+  
+
+
+
+
+<div class="container">
+  
+  <h4 class="lead">Enter your name to get a customised conspiracy theory</h4>
+    <form action="/{{ noun }}" accept-charset="UTF-8" method="post" class="form-horizontal">
+      <div class="form-group">
+      
+      <div class="col-sm-10"></div>
+
+      </div>
+    
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Please enter name:</label>
+        <div class="col-sm-10">  
+            <input type="text" class="form-control" id="name" name="noun">
+        </div>
+    </div>
+    
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Generate</button>
+      </div>
+    </div>
+  </form>
 </div>
-
