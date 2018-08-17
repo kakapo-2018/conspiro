@@ -1,4 +1,14 @@
 {
+  "intro": [
+    "Did you know that... ",
+    "Are you aware that... ",
+    "The truth is that... ",
+    "People don't want you to know that: ",
+    "Industry doesn't want you to know that: ",
+    "The government doesn't want you to know that: ",
+    "Nine out of ten people don't realize that: "
+  ],
+
   "stringsForNouns": [
     " is actually dead and was replaced by a body double",
     " is a time-travelling vampire",
@@ -11,10 +21,40 @@
     " is Invading!"
   ],
 
+  
+  "nouns": [
+    "Hitler",
+    "The Lizard People",
+    "The last Dinosaur",
+    "Barack Obama",
+    "Hillary Clinton",
+    "The Illuminati",
+    "Michael Jackson",
+    "Pokemon Go"
+  ],
+  
+  
   "stringsForObjects":[
     "Millenials are killing ",
-    "Millenials are killing ",
-    "Millenials are killing "
+    "Unix is a ",
+    "The government is poisoning ",
+    "The government masterminded ",
+    "The Apocalypse will be brought about by ",
+    "The flat-Earth theory has been confirmed by ",
+    "The water supply is ",
+    "Radio waves caused "
+  ],
+  
+  "grammaticalObjects": [
+    "the Illuminati",
+    "Pokemon Go",
+    "Millenials",
+    "aliens",
+    "the superflu",
+    "the FDA",
+    "chemtrails",
+    "the Holocaust",
+    "Monsanto"
   ],
 
   "stringAlone": [
@@ -25,35 +65,10 @@
     "Adam and Eve? Superintelligent beings from outer space",
     "Unix is a virus",
     "Shape-shifting reptile aliens control Earth by taking on a human form and gaining political power to manipulate humanity",
+    "The Rothchilds masterminded WW2",
     "Hitler is still alive"
-    ],
-
-    "nouns": [
-      "Hitler",
-      "The Lizard People",
-      "The last Dinosaur",
-      "Barack Obama",
-      "Hillary Clinton",
-      "The Illuminati",
-      "Michael Jackson",
-      "Pokemon Go"
-    ],
-
-    "intro": [
-      "Did you know that... ",
-      "Are you aware that... ",
-      "The truth is that... ",
-      "People don't want you to know that: ",
-      "Industry doesn't want you to know that: ",
-      "The government doesn't want you to know that: ",
-      "Nine out of ten people don't realize that: "
-    ],
-
-    "grammaticalObjects": [
-      "the Illuminati",
-      "Pokemon Go",
-      "Millenials"
-    ]
+  ]
 }
+
 
 
