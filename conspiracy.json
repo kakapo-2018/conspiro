@@ -18,22 +18,32 @@
     " helped build Stonehenge",
     " can control the weather",
     " is running the world",
-    " is Invading!"
+    " is Invading!",
+    " is tired of your bullshit!"
   ],
 
-  
   "nouns": [
     "Hitler",
     "The Lizard People",
     "The last Dinosaur",
+    "The First Dinosaur",
     "Barack Obama",
     "Hillary Clinton",
     "The Illuminati",
     "Michael Jackson",
-    "Pokemon Go"
+    "Pokemon Go",
+    "Atilla the Hun",
+    "Pliny the Elder",
+    "The Beehive",
+    "Keanu Reeves",
+    "Mary Queen of Scots",
+    "Clifford the Big Red Dog",
+    "Karen from Finance",
+    "William John Cavendish-Scott-Bentinck (1800-1879) of Nottinghamshire",
+    "Mango, King of the Pickles, the Best Drinking Buddy You Never Had",
+    "Sir George Sitwell, fourth Baronet of Renishaw, Derbyshire"
   ],
-  
-  
+    
   "stringsForObjects":[
     "Millenials are killing ",
     "Unix is a ",
@@ -42,7 +52,8 @@
     "The Apocalypse will be brought about by ",
     "The flat-Earth theory has been confirmed by ",
     "The water supply is ",
-    "Radio waves caused "
+    "Radio waves caused ",
+    "Cats started "
   ],
   
   "grammaticalObjects": [
@@ -53,8 +64,9 @@
     "the superflu",
     "the FDA",
     "chemtrails",
-    "the Holocaust",
-    "Monsanto"
+    "the Apocalypse",
+    "Monsanto",
+    "the Umbrella Corporation"
   ],
 
   "stringAlone": [
