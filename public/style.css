@@ -1,8 +1,13 @@
 /* css rules on top of bootstrap go here */
 body {
     
-     background: linear-gradient(rgba(253, 253, 253, 0.288), rgba(253, 253, 253, 0.493)),
+     background: linear-gradient(rgba(253, 253, 253, 0.493), rgba(253, 253, 253, 0.493)),
     url("https://images.unsplash.com/photo-1521579772986-45a33628a34e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=171149e28b4b8aa171238f11410d072e&auto=format&fit=crop&w=1350&q=80");
+}
+
+.jumbotron {
+    background-color: rgba(38, 100, 48, 0.2);
+    border-radius: 70px;
 }
 
 .cover-title,
@@ -12,13 +17,38 @@ body {
 
 .cover-title{
     font-size: 120px;
+    font-family: 'Bowlby One', cursive;
 }
 
 .cover-heading {
     font-size: 80px;
+    font-family: 'Frijole', cursive;
 }
 
+#enter-name {
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.lead {
+    font-family: 'Nosifer', cursive;
+}
 
 #the-conspiracy {
     font-size: 50px;
+    font:  bold;
+}
+
+.intro {
+    font-size: 30px;
+    font:  bold;
+}
+
+footer {
+    font-size: 20px;
+    background-color: white;
+}
+
+.control-label h3 {
+    font-weight: bold;
 }
