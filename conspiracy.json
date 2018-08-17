@@ -1,15 +1,20 @@
 {
-  "singularNounPlusString": [
-    "{{ noun }} is actually dead and was replaced by a body double",
-    "{{ noun }} is a time-travelling vampire",
-    "{{ noun }} was secretly a KGB spy",
-    "{{ noun }} does not exist",
-    "{{ noun }} helped build the pyramids",
-    "{{ noun }} helped build Stonehenge",
-    "{{ noun }} can control the weather",
-    "{{ noun }} is running the world",
-    "{{ noun }} is Invading!",
-    "Millenials are killing {{ noun }}"
+  "stringsForNouns": [
+    " is actually dead and was replaced by a body double",
+    " is a time-travelling vampire",
+    " was secretly a KGB spy",
+    " does not exist",
+    " helped build the pyramids",
+    " helped build Stonehenge",
+    " can control the weather",
+    " is running the world",
+    " is Invading!"
+  ],
+
+  "stringsForObjects":[
+    "Millenials are killing ",
+    "Millenials are killing ",
+    "Millenials are killing "
   ],
 
   "stringAlone": [
@@ -21,6 +26,33 @@
     "Unix is a virus",
     "Shape-shifting reptile aliens control Earth by taking on a human form and gaining political power to manipulate humanity",
     "Hitler is still alive"
+    ],
+
+    "nouns": [
+      "Hitler",
+      "The Lizard People",
+      "The last Dinosaur",
+      "Barack Obama",
+      "Hillary Clinton",
+      "The Illuminati",
+      "Michael Jackson",
+      "Pokemon Go"
+    ],
+
+    "intro": [
+      "Did you know that... ",
+      "Are you aware that... ",
+      "The truth is that... ",
+      "People don't want you to know that: ",
+      "Industry doesn't want you to know that: ",
+      "The government doesn't want you to know that: ",
+      "Nine out of ten people don't realize that: "
+    ],
+
+    "grammaticalObjects": [
+      "the Illuminati",
+      "Pokemon Go",
+      "Millenials"
     ]
 }
 
